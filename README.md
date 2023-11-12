@@ -1,11 +1,11 @@
 # New Project
-My project is a personal blog site;
+My project is a personal blog app.
 <!-- This is how you would show a photo -->
 <!-- ![App hero image](/public/assets/img/readme/app.png) -->
 
 ## Description
 
-My site allows me to upload a picture with a text area and a title.
+My app allows me to upload a picture with a text area and a title. When you first open the app you are given the option to add a post, and edit or delete an existing post. When you click the edit button it brings up a form that has existing values in the input. You can delete the entire post when you click the delete button. New posts will appear at the top blank and will need to be edited to appear how you would like. In the form there is an input that allows you to put in an image URL and that will appear in the middle of the post.
 
 
 &NewLine;
@@ -64,6 +64,7 @@ Backend – Node, Express
 &NewLine;
 &NewLine;
 
+
 <!-- This is how you make a table -->
 
 | | | |
@@ -89,13 +90,13 @@ Backend – Node, Express
 
 ### Client
 
-Here you can describe what creates your front end (react using Vite) and highlight bits of code you're proud of
+My site is quite simple as of right now and has a lot of room to grow with that. Over time I would like to build off of this more.
 
 &NewLine;
 &NewLine;
 
 #### Feature You Like
-I don't really have any amazing parts to this. I do like how well the css handles on my browser but the css is a mess to say the least.
+I like the simplicity of it right now but that also means there aren't any cool features worth noting.
 
 <!-- this is how you make coding snippets -->
 
@@ -125,11 +126,11 @@ ViteExpress.listen(app, port, () => console.log(`Server is listening on http://l
 
 ### Bugs
 
-I have a lot to add and tweak. Css items could be better. I think I would have to mess with it for a while to know more bugs it might have.(im certain there are a bunch)
+I have a lot to add and tweak. I think I would have to mess with it for a while to know more bugs it might have.(im certain there are a bunch)
 
 ### Future Development
 
-I want to turn this into more of a disscussion site in the future obviously far out of my skill range but still.
+I want to turn this into more of a disscussion site in the future. Although I do have a lot of techniques to learn before that is possible
 
 ### Resources
 
@@ -137,4 +138,4 @@ If you use any 3rd party resources, list them here
 
 ### Contact
 
-If you have any feedback our questions, please reach me by [email](example@outlook.com), [GitHub](https://github.com/MyUserName), or [LinkedIn](https://www.linkedin.com/)!
+If you have any feedback our questions, please reach me by [email](kade.sv6@gmail.com), [GitHub](https://github.com/Kadesv), or [LinkedIn](https://www.linkedin.com/)!
