@@ -12,21 +12,21 @@ export default function BlogTemplate({ initialData, initialIsEditing, onDeleteBl
 
     const editMode = () => setIsEditing(true);
 
-    const viewMode = async () =>{
-    const { data } = await axios.put(`/api/blog/${initialData.id}`,{
-        title,
-        image,
-        text,
-    });
+    const viewMode = async () => {
+        const { data } = await axios.put(`/api/blog/${initialData.id}`, {
+            title,
+            image,
+            text,
+        });
 
-    if(!data.error) {
-        setTitle(data.title);
-        setImage(data.image);
-        setText(data.text);
-    }
+        if (!data.error) {
+            setTitle(data.title);
+            setImage(data.image);
+            setText(data.text);
+        }
 
-    setIsEditing(false);
-};
+        setIsEditing(false);
+    };
 
     const [title, setTitle] = useState(initialData.title);
     const [image, setImage] = useState(initialData.image);
@@ -49,14 +49,14 @@ export default function BlogTemplate({ initialData, initialIsEditing, onDeleteBl
                 isEditing={isEditing}
                 onValueChange={setText}
             />
-            <div>
-                <BlogButtons
-                    isEditing={isEditing}
-                    onEditClick={editMode}
-                    onSaveClick={viewMode}
-                    onDeleteBlog={onDeleteBlog}
-                />
-            </div>
+
+            <BlogButtons
+                isEditing={isEditing}
+                onEditClick={editMode}
+                onSaveClick={viewMode}
+                onDeleteBlog={onDeleteBlog}
+            />
+
         </div>
     );
 

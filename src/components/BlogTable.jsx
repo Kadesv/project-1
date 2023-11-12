@@ -2,7 +2,6 @@ import { useState } from "react"
 import BlogTemplate from "./Blog/BlogTemplate";
 import BlogAddButton from "./BlogAddButton";
 import axios from "axios";
-import './Blog.css';
 
 export default function BlogList({ initialBlogList }) {
 

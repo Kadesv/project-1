@@ -10,6 +10,8 @@ export default function EditableText({value, isEditing, onValueChange}) {
             />
             </>
             :
+            <div className="textWrapper">
             <p>{value}</p>
+            </div>
     )
 }

@@ -1,5 +1,7 @@
 
-
+body{
+margin: auto;
+}
 
 .logo {
   height: 6em;
@@ -26,8 +28,10 @@
 
 .list {
     list-style-type: none;
-    border: solid black 5px;
+    border: solid whitesmoke 5px;
     flex-direction: row;
+    height: 100vh;
+    width: 100%;
     
 }
 
@@ -35,6 +39,7 @@
 img{
     height: 200px;
     border: solid black;
+    border-radius: 5px;
 width: 200px;}
 
 

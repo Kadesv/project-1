@@ -31,9 +31,9 @@ app.post('/api/blog', (req, res) => {
 
     const newItem = {
         id: generateId(),
-        title: title || '',
-        image: image || '',
-        text: text || '',
+        title: title || 'title',
+        image: image || 'https://picsum.photos/200',
+        text: text || 'text',
     };
     TEST_DATA.push(newItem);
     res.json(newItem);

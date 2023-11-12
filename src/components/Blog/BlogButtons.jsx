@@ -5,7 +5,7 @@ export default function BlogButtons(props){
             <button onClick={props.onSaveClick}>Save</button>
         </div>
         :
-        <div>
+        <div className="buttonWrapper">
             <button onClick={props.onDeleteBlog}>Delete</button>
             <button onClick={props.onEditClick}>Edit</button>
         </div>
