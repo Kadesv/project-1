@@ -1,11 +1,12 @@
 # New Project
-
+My project is a personal blog site;
 <!-- This is how you would show a photo -->
 <!-- ![App hero image](/public/assets/img/readme/app.png) -->
 
 ## Description
 
-Write something about how your app works
+My site allows me to upload a picture with a text area and a title.
+
 
 &NewLine;
 &NewLine;
@@ -50,6 +51,15 @@ Backend – Node, Express
 &NewLine;
 
 ### Dependencies/Packages
+ "dependencies": {
+    "axios": "^1.6.1",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vite-express": "^0.11.0"
+  },
 
 &NewLine;
 &NewLine;
@@ -85,8 +95,7 @@ Here you can describe what creates your front end (react using Vite) and highlig
 &NewLine;
 
 #### Feature You Like
-
-You can highlight features you like
+I don't really have any amazing parts to this. I do like how well the css handles on my browser but the css is a mess to say the least.
 
 <!-- this is how you make coding snippets -->
 
@@ -116,11 +125,11 @@ ViteExpress.listen(app, port, () => console.log(`Server is listening on http://l
 
 ### Bugs
 
-We're all learning! You can list any issues the app may have, why you think it's happening, and how you might fix it 
+I have a lot to add and tweak. Css items could be better. I think I would have to mess with it for a while to know more bugs it might have.(im certain there are a bunch)
 
 ### Future Development
 
-You can list anything you want to add! (or didn't have time for 😅)
+I want to turn this into more of a disscussion site in the future obviously far out of my skill range but still.
 
 ### Resources
 
