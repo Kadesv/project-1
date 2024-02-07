@@ -5,7 +5,7 @@ My project is a personal blog app.
 
 ## Description
 
-My app allows me to upload a picture with a text area and a title. When you first open the app you are given the option to add a post, and edit or delete an existing post. When you click the edit button it brings up a form that has existing values in the input. You can delete the entire post when you click the delete button. New posts will appear at the top blank and will need to be edited to appear how you would like. In the form there is an input that allows you to put in an image URL and that will appear in the middle of the post.
+My app allows me to upload a picture with a text area and a title. When you first open the app you are given the option to add a post, and edit or delete an existing post. When you click the edit button it brings up a form that has existing values in the input. You cabxcbxcbn delete the entire post when you click the delete button. New posts will appear at the top blank and will need to be edited to appear how you would like. In the form there is an input that allows you to put in an image URL and that will appear in the middle of the post.
 
 
 &NewLine;
